@@ -1,0 +1,40 @@
+.main__section {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    /* border: 2px solid yellow; */
+    border-radius: 5px;
+    background-color: rgba(0, 0 ,0, 0.4);
+}
+.main__section--mod {
+    border: none;
+}
+.main__section--modimg {
+    height: 15rem;
+    border: 2px solid yellow;
+    background-color: blueviolet;
+    position: relative;
+}
+.main__subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    margin-bottom: 0.5rem;
+}
+.main__text {
+    color: aqua;
+}
+/* .main__img-content {
+    height: 15rem;
+    width: 100%;
+    position: relative;
+    outline: 2px solid red;
+} */
+.main__images {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+li {
+    color: antiquewhite;
+}
