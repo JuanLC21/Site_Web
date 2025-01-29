@@ -1,7 +1,7 @@
 import './Icon.css'
 export function Logo () {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill='#ededed'>
             <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
         </svg>
     )
@@ -24,6 +24,26 @@ export function Location () {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path d="M12 22s8.029-5.56 8-12c0-4.411-3.589-8-8-8S4 5.589 4 9.995C3.971 16.44 11.696 21.784 12 22zM8 9h3V6h2v3h3v2h-3v3h-2v-3H8V9z"></path>
+        </svg>
+    )
+}
+export function LeftArrow () {
+    return (
+        // <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="3 3 18 18" fill='rgb(60, 66, 79)' opacity={0.7}>
+        //     <path d="M19 21a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14zM12 7v4h5v2h-5v4l-5-5 5-5z"></path>
+        // </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="2 2 20 20" fill='rgb(70, 98, 164)' opacity={0.8}>
+            <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11h-5v4l-5-5 5-5v4h5v2z"></path>
+        </svg>
+    )
+}
+export function RightArrow () {
+    return (
+        // <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="3 3 18 18" fill='rgb(60, 66, 79)' opacity={0.7}>
+        //     <path d="M3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2zm4 6h5V7l5 5-5 5v-4H7v-2z"></path>
+        // </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="2 2 20 20" fill='rgb(70, 98, 164)' opacity={0.8}>
+            <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 15v-4H7v-2h5V7l5 5-5 5z"></path>
         </svg>
     )
 }
