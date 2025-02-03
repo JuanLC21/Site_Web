@@ -1,4 +1,4 @@
-import { Email, Phone, Location } from './Icon'
+import { Email, Phone, Location, InstagramIcon } from './Icon'
 import './Footer.css'
 
 export function Footer () {
@@ -6,15 +6,22 @@ export function Footer () {
         <footer className='footer'>
             <section className="footer__section">
                 <Email/>
-                <p>Correo: ddi@ddi.com.co</p>
+                <p><strong className='footer__remark'>Correo:</strong> ddi@ddi.com.co</p>
             </section>
             <section className="footer__section">
                 <Phone/>
-                <p>Telefono: (574) 202 45 88</p>
+                <p><strong className='footer__remark'>Telefono:</strong> (574) 202 45 88</p>
             </section>
             <section className="footer__section">
                 <Location/>
-                <p>Dirección: Cra 42 # 39 sur 130</p>
+                <p><strong className='footer__remark'>Dirección:</strong> Cra 42 # 39 sur 130</p>
+            </section>
+            <section className="footer__section">
+                <InstagramIcon/>
+                <p><strong className='footer__remark'>Instagram:</strong> @ddi_col</p>
+            </section>
+            <section className="footer__section footer__section--modify">
+                <p>DDI S.A.S 2022</p>
             </section>
         </footer>
     )
