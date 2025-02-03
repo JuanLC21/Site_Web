@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import * as products from '../assets/images/dataImages.js'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { LeftArrow, RightArrow } from './Icon'
 import './Slider.css'
 
@@ -8,13 +8,19 @@ const productsImages = Object.values(products)
 
 export function Slider () {
     const [indexImage, setIndexImage] = useState(0)
+    const indexRef = useRef(null)
+    useEffect(() => {
+        indexRef.current = setInterval(() => {
+            setIndexImage(prevIndex => (prevIndex < productsImages.length - 1 ? prevIndex + 1 : 0))
+        }, 5000)
+
+        return () => { clearInterval(indexRef.current) }
+    }, [])
     function previous () {
-        const imageChanged = indexImage > 0
-        imageChanged ? setIndexImage(indexImage - 1) : setIndexImage(productsImages.length - 1)
+        setIndexImage(prevIndex => (prevIndex > 0 ? prevIndex - 1 : productsImages.length - 1))
     }
     function next () {
-        const imageChanged = indexImage < productsImages.length - 1
-        imageChanged ? setIndexImage(indexImage + 1) : setIndexImage(0)
+        setIndexImage(prevIndex => (prevIndex < productsImages.length - 1 ? prevIndex + 1 : 0))
     }
     return (
         <section className='slider'>
@@ -25,7 +31,7 @@ export function Slider () {
             </div>
             <div className='slider__arrows'>
                 <button className='slider__button' name='left' onClick={previous}><LeftArrow/></button>
-                <button className='slider__button' name='right' onClick={next}><RightArrow/></button>
+                <button className='slider__button slider__button--right' name='right' onClick={next}><RightArrow/></button>
             </div>
         </section>
     )

@@ -3,18 +3,20 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 1rem;
 }
 .header__logo {
     height: 3rem;
     width: 5rem;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .header__title {
     display: inline;
     width: 10rem;
     text-align: center;
     font-size: 25px;
-    color: antiquewhite;
+    color: #ededed;
+    text-shadow: 0 0 3px #ededed , 0 0 7px #ededed;
 }
 .header__menu {
     height: 3rem;
