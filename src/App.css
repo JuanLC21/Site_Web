@@ -1,3 +1,10 @@
+:root {
+    --white: #ECECEC;
+    --cian: #36C4CF;
+    --radius: 10px;
+    --main-width: 80%;
+    --main-max-width: 25rem;
+}
 .container {
     height: 100dvh;
     width: 100%;

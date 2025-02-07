@@ -8,19 +8,19 @@
 .header__logo {
     height: 3rem;
     width: 5rem;
-    border-radius: 10px;
+    border-radius: var(--radius);
 }
 .header__title {
-    display: inline;
     width: 10rem;
+    display: inline;
     text-align: center;
-    font-size: 25px;
-    color: #ededed;
-    text-shadow: 0 0 3px #ededed , 0 0 7px #ededed;
+    font-size: 1.5rem;
+    text-shadow: 0 0 3px var(--white), 0 0 7px var(--white);
+    color: var(--white);
 }
 .header__menu {
-    height: 3rem;
     width: 5rem;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;

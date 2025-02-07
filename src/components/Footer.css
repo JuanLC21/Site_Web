@@ -1,23 +1,22 @@
 .footer{
-    margin: 1rem 0;
-    padding: 1rem 2.5rem;
-    background: linear-gradient(45deg, rgba(54, 148, 207, 0.7), rgba(56, 54, 207, 0.7));
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    background: linear-gradient(45deg, rgba(54, 148, 207, 0.9), rgba(56, 54, 207, 0.9)); /*0.7*/
     box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 8px;
-    /* border: 4px inset #4662A4; */
+    border: 3px solid;
+    border-image: linear-gradient(45deg, var(--cian), #3836CF) 1;
 } 
 .footer__section {
     height: 2rem;
     display: flex;
     align-items: center;
-    /* outline: 2px solid palegreen; */
 }
 .footer__section > p {
-    /* font-size: 20px; */
     margin-left: 1rem;
-    color: #ededed;
+    color: var(--white);
 }
 .footer__remark {
-    color: #2D2E33;
+    color: #1f284c;
 }
 .footer__section--modify {
     display: flex;
