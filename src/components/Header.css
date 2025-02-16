@@ -1,12 +1,12 @@
 .header{
     width: 100%;
     height: 30%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     background-image: url('./fondo_header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    clip-path: polygon(100% 0, 100% 91%, 74% 100%, 0 91%, 0 0);
+    position: relative;
 }
 /* ////////////////////////////////////// */
 .header__covert{
@@ -14,39 +14,33 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    padding: 1rem 0;
-    background-color: rgba(20, 20, 20, 0.8);
-    outline: 2px solid red;
+    position: relative;
+    background-color: rgba(20, 20, 20, 0.7);
 }
 /* ////////////////////////////////////// */
 .header__naver {
     width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    margin: 2rem 0 1rem 0;
+    position: relative;
 }
 .header__logo {
     width: 4rem;
-    height: 2rem;
+    height: 3rem;
+    position: absolute;
     border-radius: var(--radius);
-}
-.header__menu {
-    width: 4.5rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--sky);
 }
 /* ////////////////////////////////////// */
 .header__title {
     width: 80%;
     display: inline;
     text-align: center;
-    background-image: linear-gradient(180deg, #6A36CF, var(--sky), var(--cian) );
     text-transform: uppercase;
+    background-image: linear-gradient(180deg, var(--sky) ,var(--white), var(--cian) );
     background-clip: text;
     color: transparent;
 }

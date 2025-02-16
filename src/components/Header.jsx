@@ -6,8 +6,8 @@ export function Header () {
         <header className='header'>
             <div className='header__covert'>
                 <nav className="header__naver">
-                    <img className='header__logo' src='./LOGOS DDI.avif' alt='Logo desarrollo de ingeniería'></img>
-                    <div className='header__menu'><Menu/></div>
+                    <img className='header__logo' src='./logo_header.avif' alt='Desarrollo de ingeniería'></img>
+                    <Menu/>
                 </nav>
                 <h1 className='header__title'>Desarrollo De Ingeniería</h1>
             </div>
