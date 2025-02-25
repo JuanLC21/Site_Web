@@ -56,7 +56,7 @@
 }
 .menu__content--hidden {
     width: 0;
-    padding: 0;
+    padding: 0 0 0.3rem 0;
     transition: all 0.5s ease-in;
 }
 .menu__li {
@@ -67,19 +67,15 @@
     font-weight: 600;
     border-bottom: 1px solid #000;
 }
-.menu__li > button {
+.menu__link-route {
     width: 100%;
-    height: 1.5rem;
-    font-weight: 600;
-    text-align: left;
-    border: none;
+    height: 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 700;
     text-transform: uppercase;
     color: #2D2E33;
     background-color: transparent;
-}
-.menu__li > button:focus {
-    color: var(--white);
-    text-shadow: 0 0 3px var(--white) , 0 0 7px var(--white);
 }
 .menu__content > li:first-child, .menu__content> li:last-child {
     border: none;

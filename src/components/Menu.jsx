@@ -1,4 +1,5 @@
 import { useReducer } from 'react'
+import { Link } from 'react-router-dom'
 import './Menu.css'
 
 const initialState = {
@@ -47,11 +48,21 @@ export function Menu () {
             </button>
             <ul className={`menu__content ${state.showMenu}`}>
                 <li className='menu__li'></li>
-                <li className='menu__li'><button>Inicio</button></li>
-                <li className='menu__li'><button>Productos</button></li>
-                <li className='menu__li'><button>Proyectos</button></li>
-                <li className='menu__li'><button>Sobre nosotros</button></li>
-                <li className='menu__li'><button>Contactenos</button></li>
+                <li className='menu__li'>
+                    <Link to={'/'} className='menu__link-route'> Inicio</Link>
+                </li>
+                <li className='menu__li'>
+                    <Link to={'/products'} className='menu__link-route'>Productos</Link>
+                </li>
+                <li className='menu__li'>
+                    <Link to={'/projects'} className='menu__link-route'>Proyectos</Link>
+                </li>
+                <li className='menu__li'>
+                    <Link to={'/about'} className='menu__link-route'>Sobre nosotros</Link>
+                </li>
+                <li className='menu__li'>
+                    <Link to={'/contact'} className='menu__link-route'>Contactenos</Link>
+                </li>
             </ul>
         </nav>
     )
