@@ -7,12 +7,15 @@ const direction = {
     src: 'fondo_principal',
     alt: 'Maquina Etiquetadora'
 }
+
 function Home () {
     return (
         <div className="container">
             <Header parameters={direction}>Desarrollo de ingeniería</Header>
-            <Main/>
-            <Footer/>
+            <div className='container__scroll'>
+                <Main/>
+                <Footer/>
+            </div>
         </div>
     )
 }
