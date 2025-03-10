@@ -1,0 +1,22 @@
+.main-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+/* ////////////////////////////////////// */
+.main-projects__video , .main-projects__image {
+    width: var(--main-width);
+    max-width: var(--main-max-width);
+    max-height: 11rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    border-radius: var(--radius);
+}
+
+/* .main-projects__image > img {
+    width: 100%;
+    height: 100%;
+} */

@@ -1,5 +1,6 @@
 import { Section } from './Section'
 import './MainAbout.css'
+
 export function MainAbout () {
     return (
         <main className='main-about'>

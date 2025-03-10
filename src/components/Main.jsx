@@ -1,5 +1,6 @@
 import { Slider } from './Slider'
 import { Section } from './Section'
+import './Main.css'
 
 export function Main () {
     return (

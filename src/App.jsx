@@ -5,7 +5,6 @@ import Contact from './pages/Contact.jsx'
 import Products from './pages/Products.jsx'
 import Projects from './pages/Projects.jsx'
 import NotFoundPage from './pages/NotFoundPage.jsx'
-import './components/Main.css'
 
 const router = createBrowserRouter([
     { path: '/', element: <Home/> },
