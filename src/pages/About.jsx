@@ -1,7 +1,7 @@
-import { Header } from '../components/Header'
-import { MainAbout } from '../components/MainAbout'
-import { Footer } from '../components/Footer'
-import '../index.css'
+import { Header } from '../layouts/header/Header'
+import { MainAbout } from '../layouts/main/MainAbout'
+import { Footer } from '../layouts/footer/Footer'
+import '../styles/index.css'
 
 const direction = {
     src: 'fondo_acerca',

@@ -1,4 +1,4 @@
-import { Email, Phone, Location, InstagramIcon } from './Icon'
+import { Email, Phone, Location, InstagramIcon } from '../../components/Icon'
 import './Footer.css'
 
 export function Footer () {

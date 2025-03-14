@@ -1,6 +1,6 @@
-import { Header } from '../components/Header'
-import { MainProjects } from '../components/MainProjects'
-import { Footer } from '../components/Footer'
+import { Header } from '../layouts/header/Header'
+import { MainProjects } from '../layouts/main/MainProjects'
+import { Footer } from '../layouts/footer/Footer'
 
 const direction = {
     src: 'fondo_proyecto',

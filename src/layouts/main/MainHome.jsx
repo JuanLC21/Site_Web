@@ -1,16 +1,16 @@
-import { Slider } from './Slider'
-import { Section } from './Section'
-import './Main.css'
+import { Slider } from '../../components/Slider'
+import { Section } from '../../components/Section'
+import { Video } from '../../components/Video'
+import video00 from '../../assets/Videoddi.mp4'
+import './MainHome.css'
 
-export function Main () {
+export function MainHome () {
     return (
         <main className='main'>
             <Section title={'Nuestros procesos'} list={ false }>
                 Nuestra especialidad es diseño y montaje de soluciones de automatización y control industrial, integrando a los procesos productivos equipos para el control, con alta tecnología en software especializado de supervisión y operación.
             </Section>
-            <section className='main__video'>
-                <video width="100%" height="100%" src='./Videoddi.mp4' autoPlay muted loop></video>
-            </section>
+            <Video url={video00} control={false}/>
             <Section title={'Tecnología e innovación'} list={ false }>
                 Somos una compañía que ofrece soluciones de ingeniería, especialmente en el área de automatización y control.
             </Section>

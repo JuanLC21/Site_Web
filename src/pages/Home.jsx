@@ -1,7 +1,7 @@
-import { Header } from '../components/Header.jsx'
-import { Main } from '../components/Main.jsx'
-import { Footer } from '../components/Footer.jsx'
-import '../index.css'
+import { Header } from '../layouts/header/Header.jsx'
+import { MainHome } from '../layouts/main/MainHome.jsx'
+import { Footer } from '../layouts/footer/Footer.jsx'
+import '../styles/index.css'
 
 const direction = {
     src: 'fondo_principal',
@@ -13,7 +13,7 @@ function Home () {
         <div className="container">
             <Header parameters={direction}>Desarrollo de ingeniería</Header>
             <div className='container__scroll'>
-                <Main/>
+                <MainHome/>
                 <Footer/>
             </div>
         </div>

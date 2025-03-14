@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import * as products from '../assets/images/dataImages.js'
+import * as products from '../assets/images/dataImagesA.js'
 import { useEffect, useRef, useState } from 'react'
 import { LeftArrow, RightArrow } from './Icon'
 import './Slider.css'

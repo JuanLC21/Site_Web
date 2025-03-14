@@ -15,7 +15,7 @@
 }
 .lightbox__box {
     width: 100%;
-    height: 100%;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

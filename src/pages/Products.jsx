@@ -1,4 +1,7 @@
-import { Header } from '../components/Header'
+import { Header } from '../layouts/header/Header'
+import { MainProducts } from '../layouts/main/MainProducts'
+import { Footer } from '../layouts/footer/Footer'
+import '../styles/index.css'
 
 const direction = {
     src: 'fondo_producto',
@@ -7,9 +10,13 @@ const direction = {
 
 function Products () {
     return (
-        <>
+        <section className='container'>
             <Header parameters={direction}>Productos</Header>
-        </>
+            <div className='container__scroll'>
+                <MainProducts/>
+                <Footer/>
+            </div>
+        </section>
     )
 }
 

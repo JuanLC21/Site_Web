@@ -1,4 +1,4 @@
-import { Header } from '../components/Header'
+import { Header } from '../layouts/header/Header'
 
 const direction = {
     src: 'fondo_contacto',
