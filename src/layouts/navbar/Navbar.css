@@ -51,7 +51,8 @@
     overflow: hidden;
     border-radius: var(--radius);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -5px 0px inset;
-    background: linear-gradient(to right, #3663ce, #a1c5ef, #2d407b);
+    background-color: #3836CE;
+    background-image: radial-gradient(circle at 0% 99%, #36C3CE 0%, transparent 67%), radial-gradient(circle at 46% 94%, #32499A 0%, transparent 81%), radial-gradient(circle at 93% 95%, #1E2748 0%, transparent 66%), radial-gradient(circle at 89% 8%, #000 0%, transparent 150%);
     transition: all 0.8s ease-out;
 }
 .navbar__content--hidden {
@@ -74,7 +75,7 @@
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
-    color: #2D2E33;
+    color: var(--white);
     background-color: transparent;
 }
 .navbar__content > li:first-child, .navbar__content> li:last-child {

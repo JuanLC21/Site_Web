@@ -13,16 +13,16 @@ function reducer (state, action) {
     // reducer(state, {type, payload}) --> desestructuración del 'action'
     switch (action.type) {
     case 'rotate+45':
-        return state.firstDiv === 'navbar__default' ? { ...state, firstDiv: action.payload } : { ...state, firstDiv: 'navbar__default' }
+        return state.firstDiv === 'navbar__default' ? { ...state, firstDiv: 'navbar__transform1' } : { ...state, firstDiv: 'navbar__default' }
 
     case 'traslate100%':
-        return state.secondDiv === 'navbar__default' ? { ...state, secondDiv: action.payload } : { ...state, secondDiv: 'navbar__default' }
+        return state.secondDiv === 'navbar__default' ? { ...state, secondDiv: 'navbar__transform2' } : { ...state, secondDiv: 'navbar__default' }
 
     case 'rotate-45':
-        return state.thirdDiv === 'navbar__default' ? { ...state, thirdDiv: action.payload } : { ...state, thirdDiv: 'navbar__default' }
+        return state.thirdDiv === 'navbar__default' ? { ...state, thirdDiv: 'navbar__transform3' } : { ...state, thirdDiv: 'navbar__default' }
 
     case 'show':
-        return state.showNavbar === 'navbar__content--hidden' ? { ...state, showNavbar: action.payload } : { ...state, showNavbar: 'navbar__content--hidden' }
+        return state.showNavbar === 'navbar__content--hidden' ? { ...state, showNavbar: '' } : { ...state, showNavbar: 'navbar__content--hidden' }
 
     default:
         return state
@@ -33,10 +33,10 @@ export function Navbar () {
     const [state, dispatch] = useReducer(reducer, initialState)
     // const [{firstDiv, secondDiv, thirdDiv} , dispatch] = useReducer(reducer, initialState) --> desestructuración del 'state'
     function handleBtnIcon () {
-        dispatch({ type: 'rotate+45', payload: 'navbar__transform1' })
-        dispatch({ type: 'traslate100%', payload: 'navbar__transform2' })
-        dispatch({ type: 'rotate-45', payload: 'navbar__transform3' })
-        dispatch({ type: 'show', payload: '' })
+        dispatch({ type: 'rotate+45' })
+        dispatch({ type: 'traslate100%' })
+        dispatch({ type: 'rotate-45' })
+        dispatch({ type: 'show' })
     }
 
     return (
@@ -67,3 +67,6 @@ export function Navbar () {
         </nav>
     )
 }
+// Nota: El payload, no siempre es necesario. En este caso era prescindible, puesto que no hay un valor dentro del componente Navbar
+//       que se necesite extraer para utilizar dentro de la función 'reducer'. En cambio en el componente Slider si era necesario el
+//       payload, puesto que la prop que maneja dicho componente, no se puede utilizar fuera de este.
