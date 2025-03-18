@@ -1,0 +1,5 @@
+export { default as image00 } from './Llenadora1.jpg'
+export { default as image01 } from './Llenadora2.jpg'
+export { default as image02 } from './Llenadora3.jpg'
+export { default as image03 } from './Llenadora4.jpg'
+export { default as image04 } from './Llenadora5.jpg'

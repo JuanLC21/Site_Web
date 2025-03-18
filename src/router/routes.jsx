@@ -2,16 +2,24 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from '../pages/Home.jsx'
 import About from '../pages/About.jsx'
 import Contact from '../pages/Contact.jsx'
-import Products from '../pages/Products.jsx'
 import Projects from '../pages/Projects.jsx'
+import Products from '../pages/Products.jsx'
+import Labeller from '../pages/Labeller.jsx'
+import Panel from '../pages/Panel.jsx'
+import Dosing from '../pages/Dosing.jsx'
+import Fermenter from '../pages/Fermenter.jsx'
 import NotFoundPage from '../pages/NotFoundPage.jsx'
 
 const router = createBrowserRouter([
     { path: '/', element: <Home/> },
     { path: '/about', element: <About/> },
     { path: '/contact', element: <Contact/> },
-    { path: '/products', element: <Products/> },
     { path: '/projects', element: <Projects/> },
+    { path: '/products', element: <Products/> },
+    { path: '/products/labeller', element: <Labeller/> },
+    { path: '/products/panel', element: <Panel/> },
+    { path: '/products/dosing', element: <Dosing/> },
+    { path: '/products/fermentation', element: <Fermenter/> },
     { path: '*', element: <NotFoundPage/> }
 ])
 

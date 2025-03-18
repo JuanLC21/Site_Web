@@ -1,6 +1,7 @@
 import { Slider } from '../../components/Slider'
 import { Section } from '../../components/Section'
 import { Video } from '../../components/Video'
+import * as products from '../../assets/images/dataImagesA.js'
 import video00 from '../../assets/Videoddi.mp4'
 import './MainHome.css'
 
@@ -14,7 +15,7 @@ export function MainHome () {
             <Section title={'Tecnología e innovación'} list={ false }>
                 Somos una compañía que ofrece soluciones de ingeniería, especialmente en el área de automatización y control.
             </Section>
-            <Slider/>
+            <Slider images={products}/>
             <Section title={'Razones para elegirnos'} list={ true }>
                 <li>Trabajamos con Allen-Bradley®, marca líder del mercado por su excelencia.</li>
                 <li>Nuestra calidad ha llevado nuestros productos a más de 14 países.</li>
