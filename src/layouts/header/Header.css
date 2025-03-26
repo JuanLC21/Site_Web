@@ -32,6 +32,7 @@
 .header__logo {
     width: 4rem;
     height: 3rem;
+    padding: 1px 1px;
     position: absolute;
     border-radius: var(--radius);
 }

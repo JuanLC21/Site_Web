@@ -12,6 +12,7 @@
     text-align: center;
     font-size: 1.25rem;
     color: var(--cian);
+    text-transform: uppercase;
     text-shadow: 0 0 3px var(--cian) , 0 0 7px var(--cian);
 }
 .section__paragraph {

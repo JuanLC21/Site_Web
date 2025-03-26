@@ -2,7 +2,7 @@ import { Slider } from '../../components/Slider'
 import { Section } from '../../components/Section'
 import { Video } from '../../components/Video'
 import * as products from '../../assets/images/dataImagesA.js'
-import video00 from '../../assets/Videoddi.mp4'
+import video00 from '../../assets/videos/Videoddi.mp4'
 import './MainHome.css'
 
 export function MainHome () {

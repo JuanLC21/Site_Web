@@ -1,7 +1,7 @@
 import { Section } from '../../components/Section'
 import { Lightbox } from '../../components/Lightbox'
 import { Video } from '../../components/Video'
-import video04 from '../../assets/Tableros.mp4'
+import video04 from '../../assets/videos/Tableros.mp4'
 import panel from '../../assets/images/Tableros.jpg'
 import './MainPanel.css'
 

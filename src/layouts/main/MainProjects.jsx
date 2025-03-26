@@ -2,8 +2,8 @@ import { Section } from '../../components/Section.jsx'
 import { Video } from '../../components/Video.jsx'
 import { Lightbox } from '../../components/Lightbox.jsx'
 import * as images from '../../assets/images/dataImagesB.js'
-import video01 from '../../assets/Shredder.mp4'
-import video02 from '../../assets/Process.mp4'
+import video01 from '../../assets/videos/Shredder.mp4'
+import video02 from '../../assets/videos/Process.mp4'
 import './MainProjects.css'
 
 const projects = Object.values(images)
