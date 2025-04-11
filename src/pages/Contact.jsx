@@ -1,4 +1,6 @@
 import { Header } from '../layouts/header/Header'
+import { MainContact } from '../layouts/main/MainContact'
+import { Footer } from '../layouts/footer/Footer'
 
 const direction = {
     src: 'fondo_contacto',
@@ -7,9 +9,13 @@ const direction = {
 
 function Contact () {
     return (
-        <>
+        <div className="container">
             <Header parameters={direction}>Contactanos</Header>
-        </>
+            <div className='container__scroll'>
+                <MainContact/>
+                <Footer/>
+            </div>
+        </div>
     )
 }
 
