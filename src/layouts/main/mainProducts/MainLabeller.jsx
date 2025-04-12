@@ -3,11 +3,11 @@ import { Lightbox } from '../../../components/Lightbox'
 import { Video } from '../../../components/Video'
 import video03 from '../../../assets/videos/Etiquetadoras.mp4'
 import labeller from '../../../assets/images/Etiquetadora.jpg'
-import './MainLabeller.css'
+import '../../../styles/main.css'
 
 export function MainLabeller () {
     return (
-        <main className='main-labeller'>
+        <main className='main'>
             <Section title={'Máquina Etiquetadora'} list={false}>
                 Maquina etiquetadora automática servomotorizada para aplicación de etiquetas autoadhesivas para diferentes presentaciones de envases plástico y vidrio. Control por medio de display para ajustar todos los parámetros de trabajo en la máquina.
             </Section>

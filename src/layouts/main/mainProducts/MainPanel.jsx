@@ -3,11 +3,11 @@ import { Lightbox } from '../../../components/Lightbox'
 import { Video } from '../../../components/Video'
 import video04 from '../../../assets/videos/Tableros.mp4'
 import panel from '../../../assets/images/Tableros.jpg'
-import './MainPanel.css'
+import '../../../styles/main.css'
 
 export function MainPanel () {
     return (
-        <main className='main-panel'>
+        <main className='main'>
             <Section title={'Sistemas de control'} list={false}>
                 Ingeniería, diseño, montaje y fabricación de paneles de control para máquinas o procesos, utilizando modernos equipos de automatización y la adición de software especializado de control y adquisición de datos.
             </Section>

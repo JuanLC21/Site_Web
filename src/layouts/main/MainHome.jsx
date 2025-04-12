@@ -3,7 +3,7 @@ import { Section } from '../../components/Section'
 import { Video } from '../../components/Video'
 import * as products from '../../assets/images/dataImagesA.js'
 import video00 from '../../assets/videos/Videoddi.mp4'
-import './MainHome.css'
+import '../../styles/main.css'
 
 export function MainHome () {
     return (

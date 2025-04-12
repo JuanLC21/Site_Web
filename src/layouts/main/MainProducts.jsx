@@ -5,11 +5,11 @@ import imageProduct00 from '../../assets/images/Etiquetadora.jpg'
 import imageProduct01 from '../../assets/images/Tableros.jpg'
 import imageProduct02 from '../../assets/images/Llenadora1.jpg'
 import imageProduct03 from '../../assets/images/Fermentadora1.jpg'
-import './MainProducts.css'
+import '../../styles/main.css'
 
 export function MainProducts () {
     return (
-        <main className='main-products'>
+        <main className='main'>
             <Lightbox urlImage={imageProduct00} altImage={'Máquina etiquetadora'}/>
             <Section title={'Máquinas etiquetadoras'}>
                 Equipos de etiquetado, para envases cilíndricos, ovalados, o caras planas, para  aplicación de etiquetas en la parte superior de envases  y cajas, o bien, equipos multi-cabezales sobre diseño para procesos especiales.

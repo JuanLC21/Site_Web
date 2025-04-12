@@ -4,13 +4,13 @@ import { Lightbox } from '../../components/Lightbox.jsx'
 import * as images from '../../assets/images/dataImagesB.js'
 import video01 from '../../assets/videos/Shredder.mp4'
 import video02 from '../../assets/videos/Process.mp4'
-import './MainProjects.css'
+import '../../styles/main.css'
 
 const projects = Object.values(images)
 
 export function MainProjects () {
     return (
-        <main className="main-projects">
+        <main className="main">
             <Section title={'Ecogreen Equipment China'} list={false}>
                 Sistema de control para Ecogreen de planta recicladora de llantas en china.
             </Section>

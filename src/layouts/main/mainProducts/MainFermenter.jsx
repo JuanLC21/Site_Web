@@ -1,11 +1,11 @@
 import { Section } from '../../../components/Section'
 import { Slider } from '../../../components/Slider'
 import * as product from '../../../assets/images/dataImagesD'
-import './MainFermenter.css'
+import '../../../styles/main.css'
 
 export function MainFermenter () {
     return (
-        <main className='main-fermenter'>
+        <main className='main'>
             <Section title={'Cámara Fermentación'} list={false}>
                 Nuestra cámara de fermentación permite realizar el proceso de fermentación de la masa, al tener control total del nivel de temperatura y humedad en la cámara, ademas, cuenta con un panel de control y una pantalla de Rockwell Automation que permite visualizar todos los datos en tiempo real.
             </Section>

@@ -3,11 +3,11 @@ import { Slider } from '../../../components/Slider'
 import { Video } from '../../../components/Video'
 import * as product from '../../../assets/images/dataImagesC'
 import video05 from '../../../assets/videos/Llenadora.mp4'
-import './MainDosing.css'
+import '../../../styles/main.css'
 
 export function MainDosing () {
     return (
-        <main className='main-dosing'>
+        <main className='main'>
             <Section title={'Dosificadora'} list={false}>
                 En DDI diseñamos y fabricamos máquinas de llenado para toda la industria (farmacéutica, alimentaria, química y cosmética) de acuerdo a las necesidades que su empresa presente, fabricando maquinas semiautomáticas y maquinas completamente automáticas optimizadas a los niveles de producción de su compañía.
             </Section>

@@ -1,9 +1,9 @@
 import { Section } from '../../components/Section'
-import './MainAbout.css'
+import '../../styles/main.css'
 
 export function MainAbout () {
     return (
-        <main className='main-about'>
+        <main className='main'>
             <Section title={'Reseña histórica'} list={false}>
                 Fue creada en 1996 por un grupo de personas especializadas en la automatización y mantenimiento de procesos productivos, dentro de una importante empresa antioqueña del sector alimenticio. Durante el primer año de existencia, funcionó dentro de las instalaciones de la empresa a la cual pertenecieron, siendo esta el único cliente; posteriormente y durante los dos años siguientes, las oficinas se trasladaron a la sede de la Incubadora de Empresas de Antioquia, de la cual somos uno de los primeros participantes.
             </Section>
