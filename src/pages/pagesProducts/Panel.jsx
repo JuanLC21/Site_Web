@@ -1,5 +1,5 @@
 import { Header } from '../../layouts/header/Header'
-import { MainPanel } from '../../layouts/main/MainPanel'
+import { MainPanel } from '../../layouts/main/mainProducts/MainPanel'
 import { Footer } from '../../layouts/footer/Footer'
 
 const direction = {

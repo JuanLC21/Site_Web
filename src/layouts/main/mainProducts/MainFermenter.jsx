@@ -1,6 +1,6 @@
-import { Section } from '../../components/Section'
-import { Slider } from '../../components/Slider'
-import * as product from '../../assets/images/dataImagesD'
+import { Section } from '../../../components/Section'
+import { Slider } from '../../../components/Slider'
+import * as product from '../../../assets/images/dataImagesD'
 import './MainFermenter.css'
 
 export function MainFermenter () {

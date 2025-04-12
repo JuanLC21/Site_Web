@@ -1,5 +1,5 @@
 import { Header } from '../../layouts/header/Header'
-import { MainFermenter } from '../../layouts/main/MainFermenter'
+import { MainFermenter } from '../../layouts/main/mainProducts/MainFermenter'
 import { Footer } from '../../layouts/footer/Footer'
 
 const direction = {

@@ -1,8 +1,8 @@
-import { Section } from '../../components/Section'
-import { Slider } from '../../components/Slider'
-import { Video } from '../../components/Video'
-import * as product from '../../assets/images/dataImagesC'
-import video05 from '../../assets/videos/Llenadora.mp4'
+import { Section } from '../../../components/Section'
+import { Slider } from '../../../components/Slider'
+import { Video } from '../../../components/Video'
+import * as product from '../../../assets/images/dataImagesC'
+import video05 from '../../../assets/videos/Llenadora.mp4'
 import './MainDosing.css'
 
 export function MainDosing () {

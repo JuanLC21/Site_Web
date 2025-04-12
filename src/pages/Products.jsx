@@ -1,7 +1,6 @@
 import { Header } from '../layouts/header/Header'
 import { MainProducts } from '../layouts/main/MainProducts'
 import { Footer } from '../layouts/footer/Footer'
-import '../styles/index.css'
 
 const direction = {
     src: 'fondo_producto',

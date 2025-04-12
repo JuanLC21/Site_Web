@@ -1,8 +1,8 @@
-import { Section } from '../../components/Section'
-import { Lightbox } from '../../components/Lightbox'
-import { Video } from '../../components/Video'
-import video03 from '../../assets/videos/Etiquetadoras.mp4'
-import labeller from '../../assets/images/Etiquetadora.jpg'
+import { Section } from '../../../components/Section'
+import { Lightbox } from '../../../components/Lightbox'
+import { Video } from '../../../components/Video'
+import video03 from '../../../assets/videos/Etiquetadoras.mp4'
+import labeller from '../../../assets/images/Etiquetadora.jpg'
 import './MainLabeller.css'
 
 export function MainLabeller () {

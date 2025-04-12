@@ -1,5 +1,5 @@
 import { Header } from '../../layouts/header/Header'
-import { MainLabeller } from '../../layouts/main/MainLabeller'
+import { MainLabeller } from '../../layouts/main/mainProducts/MainLabeller'
 import { Footer } from '../../layouts/footer/Footer'
 
 const direction = {
