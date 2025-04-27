@@ -1,0 +1,14 @@
+.form {
+    height: 21rem;
+    width: 100%;
+}
+.form > input, .form > button {
+    width: 80%;
+    height: 2rem;
+    margin: 0.5rem;
+}
+.form > textarea {
+    width: 80%;
+    height: 4rem;
+    margin: 0.5rem;
+}

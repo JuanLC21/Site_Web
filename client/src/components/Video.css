@@ -1,0 +1,10 @@
+.video {
+    width: var(--main-width);
+    max-width: var(--main-max-width);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    border-radius: var(--radius);
+    box-shadow: rgba(224, 240, 247, 0.12) 0px 2px 4px 0px, rgba(224, 240, 247, 0.32) 0px 2px 16px 0px;
+}

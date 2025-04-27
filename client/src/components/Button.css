@@ -1,0 +1,17 @@
+.button {
+    width: 12rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    border: 2px solid var(--white);
+    border-radius: var(--radius);
+    background: linear-gradient(90deg, #3836CF, #6A36CF);
+}
+.button__link {
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+}
