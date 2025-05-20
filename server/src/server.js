@@ -1,6 +1,8 @@
 import express from 'express'
 import databaseConnection from './config/database.js'
 import router from './routes/contact.routes.js'
+import failedRouter from './controllers/contact.controller.js'
+import errorHandler from './middlewares/errorHandler.js'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -16,6 +18,8 @@ async function startServer () {
             next();
         })
         app.use('/', router)
+        app.use(failedRouter)
+        app.use(errorHandler)
         app.listen(PORT, () => console.log(`Server on port: ${PORT}`))
 
     } catch (error) {
