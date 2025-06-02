@@ -1,4 +1,5 @@
 import { allData, createData, readData, updateData, deleteData } from '../services/contact.service.js'
+import { emailProcessor } from '../helpers/mailer.js'
 
 //ALL
 export const getAllData = async (req, res) => {
@@ -12,6 +13,7 @@ export const getAllData = async (req, res) => {
 }
 //CREATE    
 export const postData = async (req, res, next) => {
+    emailProcessor(req.body)
     try {
         const createContact = await createData(req.body)
         res.status(200).json(createContact)
@@ -21,7 +23,7 @@ export const postData = async (req, res, next) => {
             error.statusCode = 500
         }
         if (error.name === 'ValidationError') {
-            error.message = 'Inputs validation error'
+            error.message = 'Invalid inputs'
         }
         next(error)
     }
@@ -31,7 +33,7 @@ export const getData = async (req, res, next) => {
     try {
         const readContact = await readData(req.params.id)
         if (!readContact) {
-            const newError = new Error('ID client not found')
+            const newError = new Error('Client has not been found because ID does not match')
             newError.statusCode = 404
             throw newError
         }

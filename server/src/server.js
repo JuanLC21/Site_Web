@@ -23,7 +23,7 @@ async function startServer () {
         app.listen(PORT, () => console.log(`Server on port: ${PORT}`))
 
     } catch (error) {
-        console.error('Failed server deploy', error)
+        console.error('Failed server deploy: ', error)
         process.exit(1)
     }
 }
