@@ -7,23 +7,28 @@ export function Form () {
     const { errors, inputsValue, handleSubmit, handleChange } = useForm(initialValues)
 
     return (
-        <form className="form" onSubmit={handleSubmit}>
-            <input type="text" name="name" placeholder="Nombre" value={inputsValue.name} onChange={handleChange}/>
-            {errors.name && <p style= {{ color: '#b00' }}>{errors.name}</p>}
+        <form className='form' onSubmit={handleSubmit}>
+            <label htmlFor='name'>Nombre</label>
+            <input type='text' name='name' id='name' autoComplete='name' className='form__input' value={inputsValue.name} onChange={handleChange}/>
+            {errors.name && <p className='form__error-message' >{errors.name}</p>}
 
-            <input type="email" name="email" placeholder="Correo" value={inputsValue.email} onChange={handleChange}/>
-            {errors.email && <p style= {{ color: '#b00' }}>{errors.email}</p>}
+            <label htmlFor='email'>Correo</label>
+            <input type='email' name='email' id='email' autoComplete='email' className='form__input' value={inputsValue.email} onChange={handleChange}/>
+            {errors.email && <p className='form__error-message' >{errors.email}</p>}
 
-            <input type="text" name="address" placeholder="Dirección" value={inputsValue.address} onChange={handleChange}/>
-            {errors.address && <p style= {{ color: '#b00' }}>{errors.address}</p>}
+            <label htmlFor='address'>Dirección</label>
+            <input type='text' name='address' id='address' autoComplete='street-address' className='form__input' value={inputsValue.address} onChange={handleChange}/>
+            {errors.address && <p className='form__error-message' >{errors.address}</p>}
 
-            <input type="tel" name="phone" placeholder="Teléfono" value={inputsValue.phone} onChange={handleChange}/>
-            {errors.phone && <p style= {{ color: '#b00' }}>{errors.phone}</p>}
+            <label htmlFor='phone'>Teléfono</label>
+            <input type='tel' name='phone' id='phone' autoComplete='tel' className='form__input' value={inputsValue.phone} onChange={handleChange}/>
+            {errors.phone && <p className='form__error-message' >{errors.phone}</p>}
 
-            <textarea name='message' placeholder="Mensaje" value={inputsValue.message} onChange={handleChange}></textarea>
-            {errors.message && <p style= {{ color: '#b00' }}>{errors.message}</p>}
+            <label htmlFor='message'>Mensaje</label>
+            <textarea name='message' id='message' autoComplete='off' placeholder='Escribe aquí' value={inputsValue.message} onChange={handleChange}></textarea>
+            {errors.message && <p className='form__error-message' >{errors.message}</p>}
 
-            <button type="submit">Enviar</button>
+            <button type='submit' className='form__button'>Enviar</button>
         </form>
     )
 }

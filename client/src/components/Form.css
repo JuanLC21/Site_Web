@@ -1,14 +1,41 @@
 .form {
-    height: 21rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.form > label {
+    width: var(--main-width);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1rem 0 0.5rem 0.25rem;
+    color: var(--cian);
 }
 .form > input, .form > button {
-    width: 80%;
+    width: var(--main-width);
     height: 2rem;
-    margin: 0.5rem;
+    border: none;
+    border-radius: var(--radius);
+}
+.form__input {
+    padding-left: 0.5rem;
+}
+.form__button {
+    font-weight: 600;
+    margin: 1rem 0;
+    background-color: var(--cian);
 }
 .form > textarea {
-    width: 80%;
+    width: var(--main-width);
     height: 4rem;
-    margin: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: var(--radius);
+}
+.form__error-message {
+    width: 80%;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    color: crimson;
 }

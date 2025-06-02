@@ -10,7 +10,7 @@ export function Footer () {
             </section>
             <section className="footer__section">
                 <Phone/>
-                <p><strong className='footer__remark'>Telefono:</strong> (574) 202 45 88</p>
+                <p><strong className='footer__remark'>Telefono:</strong> (604) 202 45 88</p>
             </section>
             <section className="footer__section">
                 <Location/>

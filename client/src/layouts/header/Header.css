@@ -43,7 +43,8 @@
     display: inline;
     text-align: center;
     text-transform: uppercase;
-    background-image: linear-gradient(180deg, var(--sky) ,var(--white), var(--cian) );
-    background-clip: text;
-    color: transparent;
+    color: var(--white);
+    /* background-image: linear-gradient(180deg, var(--sky) ,var(--white), var(--cian) ); */
+    /* background-clip: text; */
+    /* color: transparent; */
 }

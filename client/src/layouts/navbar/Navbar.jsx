@@ -61,7 +61,7 @@ export function Navbar () {
                     <Link to={'/about'} className='navbar__link-route'>Sobre nosotros</Link>
                 </li>
                 <li className='navbar__li'>
-                    <Link to={'/contact'} className='navbar__link-route'>Contactenos</Link>
+                    <Link to={'/contact'} className='navbar__link-route'>Contáctanos</Link>
                 </li>
             </ul>
         </nav>
