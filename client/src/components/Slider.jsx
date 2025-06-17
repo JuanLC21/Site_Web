@@ -29,7 +29,7 @@ function reducer (state, action) {
     }
 }
 
-export function Slider ({ images }) {
+export function Slider ({ images, styleMod }) {
     const productsImages = Object.values(images)
     const [{ position, lightbox, slider, none }, dispatch] = useReducer(reducer, initialState)
     const indexRef = useRef(null)
@@ -48,9 +48,9 @@ export function Slider ({ images }) {
         dispatch({ type: 'openSlider' })
         dispatch({ type: 'hideSlider' })
     }
-
+    const appearence = styleMod || ''
     return (
-        <section className='slider'>
+        <section className={`slider ${appearence}`}>
             <div className={`slider__slider ${none}`} onClick={handleSlider}>
                 <div className='slider__images'>
                     {productsImages.map((img, index) => (
