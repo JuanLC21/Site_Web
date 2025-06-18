@@ -25,11 +25,9 @@ export function Footer () {
             <div className='footer__div-2'>
                 <img src="./logo_header.avif" alt="Logo DDI SAS" />
             </div>
-
             <section className="footer__section footer__section--modify">
                 <p>DDI S.A.S 2022</p>
             </section>
-
         </footer>
     )
 }
