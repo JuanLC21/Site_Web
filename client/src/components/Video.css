@@ -10,5 +10,6 @@
 @media (min-width: 700px) {
     .video{
         width: 100%;
+        background-color: #000;
     }
 }
