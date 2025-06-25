@@ -44,7 +44,26 @@
     text-transform: uppercase;
     color: var(--white);
 }
-@media (min-width: 700px) {
+@media (min-width: 550px) and (max-width: 1349px) {
+    .header__covert {
+        justify-content: center;
+    }
+    .header__naver {
+        width: 90%;
+        margin: 0;
+    }
+    .header__logo {
+        width: 5rem;
+        height: 3rem;
+        padding: 0;
+        position: relative;
+        /* margin-left: 2.5rem; */
+    }
+    .header__title {
+        position: absolute;
+    }
+}
+@media (min-width: 1350px) {
     .header__naver {
         width: 100%;
     }
