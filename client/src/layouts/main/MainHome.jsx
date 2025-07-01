@@ -10,7 +10,7 @@ export function MainHome () {
     return (
         <main className='main-home'>
             <section className='main-home__image-section'>
-                <img src='../mapamundi.avif' alt='Mapa mundial'/>
+                <img src='../mapa1.jpeg' alt='Mapa mundial'/>
             </section>
 
             <Section title={'Nuestros procesos'} styleMod={'section-1'} list={ false }>
