@@ -3,5 +3,12 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-    plugins: [react()]
+    plugins: [react()],
+    server: {
+        watch: {
+          usePolling: true,
+          interval: 100, // ms
+        },
+        host: true // expone en 0.0.0.0 para acceso externo si es necesario
+      },
 })
