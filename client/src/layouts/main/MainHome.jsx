@@ -9,6 +9,11 @@ import './MainHome.css'
 export function MainHome () {
     return (
         <main className='main-home'>
+           
+            <Section title={'Oferta de valor'} styleMod={'section-0'} list={ false }>
+                Queremos entregarles nuestra experiencia, de más de 28 años en diferentes sectores, ingeniería y conocimiento para entregar la mejor solución que requiere su empresa, de una manera flexible y adaptable al proceso, que impacte su productividad y rentabilidad.
+            </Section>
+
             <section className='main-home__image-section'>
                 <img src='../mapa1.jpeg' alt='Mapa mundial'/>
             </section>
@@ -20,7 +25,7 @@ export function MainHome () {
             <Video url={video00} control={false} styleMod={'section-2'}/>
 
             <Section title={'Tecnología e innovación'} styleMod={'section-3'} list={ false }>
-                En DDI S.A.S. queremos entregarles nuestra experiencia, de más de 28 años en diferentes sectores, ingeniería y conocimiento para entregar la mejor solución que requiere Excala, de una manera flexible y adaptable al proceso, que impacte su productividad y rentabilidad.
+                Somos una compañía que ofrece soluciones de ingeniería, especialmente en el área de automatización y control, desarrollando e integrando sistemas electromecánicos, con una elevada adición de conocimiento y aplicación de software especializado, para soluciones y productos de la industria manufacturera en general.
             </Section>
 
             <Slider images={products} styleMod={'section-4'}/>
