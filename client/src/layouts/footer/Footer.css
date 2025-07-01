@@ -18,6 +18,7 @@
     align-items: center;
 }
 .footer__section > p {
+    text-align: center;
     margin-left: 0.5rem;
     color: var(--gray);
 }
