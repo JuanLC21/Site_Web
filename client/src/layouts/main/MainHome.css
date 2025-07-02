@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: none;
     margin: 1rem 0;
-    gap: 1rem;
+    gap: 2rem;
 }
 .main-home__image-section {
     width: 80%;
@@ -22,7 +22,7 @@
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, auto);
         margin: auto;
-        padding: 1rem 0;
+        padding: 2rem 0;
     }
     .main-home__image-section{
         width: 100%;
@@ -61,8 +61,7 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 15rem);
-        margin: 1rem auto;
-        /* padding: 2rem 0; */
+        margin: 2rem auto;
     }
     .main-home__image-section{
         width: 100%;
