@@ -93,7 +93,9 @@
     .slider {
         width: 100%;
         height: 100%;
-        margin: auto;
+    }
+    .slider__slider {
+        max-width: none;
     }
     .slider__button, .slider__close {
         cursor: pointer;

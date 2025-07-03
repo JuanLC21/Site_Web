@@ -17,8 +17,8 @@
     background-image: radial-gradient(circle at 85% 80%, rgb(35, 147, 252) 1%, transparent 40%), radial-gradient(circle at 40% 35%, rgb(35, 147, 252) 5%, transparent 72%), radial-gradient(circle at 13% 82%, hsl(0, 100%, 99%) 5%, transparent 52%);  */
     /* background-color: rgb(255, 255, 255);
     background-image: radial-gradient(circle at 85% 80%, rgb(107, 192, 241) 1%, transparent 40%), radial-gradient(circle at 40% 35%, rgb(98, 188, 248) 5%, transparent 72%), radial-gradient(circle at 13% 82%, hsl(0, 100%, 99%) 5%, transparent 52%);  */
-    background-color: rgb(35, 147, 252);
-    background-image: radial-gradient(circle at 85% 80%, rgb(255, 255, 255) 1%, transparent 40%), radial-gradient(circle at 40% 35%, rgb(255, 255, 255) 5%, transparent 72%), radial-gradient(circle at 13% 82%, hsl(0, 0%, 100%) 5%, transparent 52%);  
+    background-color: rgb(157, 204, 248);
+    background-image: radial-gradient(circle at 85% 80%, rgb(255, 255, 255) 3%, transparent 40%), radial-gradient(circle at 40% 35%, rgba(216, 209, 209, 0.808) 5%, transparent 72%), radial-gradient(circle at 13% 82%, hsl(0, 0%, 100%) 5%, transparent 52%);  
     background-blend-mode: normal, normal, normal, normal;
     font-family: "Roboto flex", serif;
     font-optical-sizing: auto;

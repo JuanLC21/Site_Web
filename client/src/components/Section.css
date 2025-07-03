@@ -19,6 +19,9 @@
 .section__paragraph {
     color: var(--gray);
 }
+.section__paragraph--mod {
+    text-align: center;
+}
 .section__list{
     text-align: center;
     color: var(--gray);

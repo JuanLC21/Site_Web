@@ -20,7 +20,7 @@ export function MainProducts () {
                 En DDI diseñamos y fabricamos tableros de control a medida de su necesidad con los mejores proveedores y los mas altos estandares de calidad, permitiéndole automatizar los procesos de su compañia.
                 <Button direction={'./panel'}>Conoce más aquí</Button>
             </Section>
-            <Lightbox urlImage={imageProduct01} altImage={'Tableros de control'}styleMod={'section-products-3'}/>
+            <Lightbox urlImage={imageProduct01} altImage={'Tableros de control'} styleMod={'section-products-3'}/>
 
             <Section title={'Máquina Llenadora'} styleMod={'section-products-4'}>
                 Diseñamos y fabricamos maquinas llenadoras de diferentes materias primas como cereales, brindando calidad en materiales y eficiencia en procesos.
