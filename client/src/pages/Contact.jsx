@@ -10,11 +10,9 @@ const direction = {
 function Contact () {
     return (
         <div className="container">
-            <Header parameters={direction}>Contáctanos</Header>
-            <div className='container__scroll'>
-                <MainContact/>
-                <Footer/>
-            </div>
+            <Header parameters={direction}>Contáctanos</Header>          
+            <MainContact/>
+            <Footer/>         
         </div>
     )
 }

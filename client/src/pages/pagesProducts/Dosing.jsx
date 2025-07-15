@@ -11,10 +11,8 @@ function Dosing () {
     return (
         <article className="container">
             <Header parameters={direction}>Máquina dosificadora</Header>
-            <div className='container__scroll'>
-                <MainDosing/>
-                <Footer/>
-            </div>
+            <MainDosing/>
+            <Footer/>
         </article>
     )
 }

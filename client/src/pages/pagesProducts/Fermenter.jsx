@@ -10,11 +10,9 @@ const direction = {
 function Fermenter () {
     return (
         <article className="container">
-            <Header parameters={direction}>Cámara de fermentación</Header>
-            <div className='container__scroll'>
-                <MainFermenter/>
-                <Footer/>
-            </div>
+            <Header parameters={direction}>Cámara de fermentación</Header>      
+            <MainFermenter/>
+            <Footer/>       
         </article>
     )
 }

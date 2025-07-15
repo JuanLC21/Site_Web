@@ -9,13 +9,10 @@ const direction = {
 
 function Projects () {
     return (
-
         <div className="container">
             <Header parameters={direction}>Proyectos</Header>
-            <div className='container__scroll'>
-                <MainProjects/>
-                <Footer/>
-            </div>
+            <MainProjects/>
+            <Footer/>          
         </div>
 
     )

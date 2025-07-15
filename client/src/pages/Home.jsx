@@ -12,10 +12,8 @@ function Home () {
     return (
         <div className="container">
             <Header parameters={direction}>Desarrollo de ingeniería</Header>
-            <div className='container__scroll'>
-                <MainHome/>
-                <Footer/>
-            </div>
+            <MainHome/>
+            <Footer/>
         </div>
     )
 }

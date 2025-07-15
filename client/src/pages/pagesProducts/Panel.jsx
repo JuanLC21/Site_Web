@@ -11,10 +11,8 @@ function Panel () {
     return (
         <article className="container">
             <Header parameters={direction}>Sistemas de control</Header>
-            <div className='container__scroll'>
-                <MainPanel/>
-                <Footer/>
-            </div>
+            <MainPanel/>
+            <Footer/>
         </article>
     )
 }

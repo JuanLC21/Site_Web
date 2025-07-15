@@ -11,10 +11,8 @@ function Labeller () {
     return (
         <article className="container">
             <Header parameters={direction}>Máquina etiquetadora</Header>
-            <div className='container__scroll'>
-                <MainLabeller/>
-                <Footer/>
-            </div>
+            <MainLabeller/>
+            <Footer/> 
         </article>
     )
 }

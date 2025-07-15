@@ -10,11 +10,9 @@ const direction = {
 function About () {
     return (
         <section className='container'>
-            <Header parameters={direction}>Sobre nosotros</Header>
-            <div className='container__scroll'>
-                <MainAbout/>
-                <Footer/>
-            </div>
+            <Header parameters={direction}>Sobre nosotros</Header>  
+            <MainAbout/>
+            <Footer/>
         </section>
     )
 }

@@ -24,9 +24,5 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
-.container__scroll{
-    height: 75%;
-    width: 100%;
     overflow: scroll;
-}                          
+}          

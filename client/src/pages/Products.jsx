@@ -10,11 +10,9 @@ const direction = {
 function Products () {
     return (
         <section className='container'>
-            <Header parameters={direction}>Productos</Header>
-            <div className='container__scroll'>
-                <MainProducts/>
-                <Footer/>
-            </div>
+            <Header parameters={direction}>Productos</Header>           
+            <MainProducts/>
+            <Footer/>       
         </section>
     )
 }
