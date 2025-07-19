@@ -1,4 +1,4 @@
-import { useForm } from '../hook/useForm'
+import { useForm } from '../hooks/useForm'
 import './Form.css'
 
 const initialValues = { name: '', email: '', address: '', phone: '', message: '' }

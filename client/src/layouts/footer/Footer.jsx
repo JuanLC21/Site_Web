@@ -1,9 +1,13 @@
 import { Email, Phone, Location, InstagramIcon } from '../../components/Icon'
+import { useIntersectionObserver } from '../../hooks/useIntersectionObserver'
 import './Footer.css'
 
+// eslint-disable-next-line react/prop-types
 export function Footer () {
+    const { isObserved, refElement } = useIntersectionObserver()
+    const appearance = isObserved ? 'footer--traslate' : ''
     return (
-        <footer className='footer'>
+        <footer className={`footer ${appearance}`} ref={refElement}>
             <div className='footer__container'>
                 <div className='footer__div-1'>
                     <section className="footer__section">

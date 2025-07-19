@@ -15,7 +15,7 @@ export function MainHome () {
             </Section>
 
             <section className='main-home__image-section'>
-                <img src='../mapa1.jpeg' alt='Mapa mundial'/>
+                <img src='../mapamundi.avif' alt='Mapa mundial'/>
             </section>
 
             <Section title={'Nuestros procesos'} styleMod={'section-1'} list={ false }>

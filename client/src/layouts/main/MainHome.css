@@ -1,9 +1,8 @@
-.main-home{
+.main-home {
     display: flex;
     flex-direction: column;
-    padding: none;
     margin: 1rem 0;
-    gap: 2rem;
+    gap: 1rem;
 }
 .main-home__image-section {
     width: 80%;
@@ -23,73 +22,76 @@
         grid-template-rows: repeat(4, auto);
         margin: auto;
         padding: 2rem 0;
+        gap: 2rem;
     }
-    .main-home__image-section{
+    .main-home__image-section {
         width: 100%;
         grid-column: 1 /span 2;
         grid-row: 1 /span 1;
     }
-    .section-0{
+    .section-0 {
         grid-column: 3 /span 3;
         grid-row: 1 /span 1;
     }
-    .section-1{
+    .section-1 {
         grid-column: 1 /span 3;
         grid-row: 2 /span 1;
     }
-    .section-2{
+    .section-2 {
         height: 100%;
         grid-column: 4 /span 2;
         grid-row: 2 /span 1;
     }
-    .section-3{
+    .section-3 {
         grid-column: 3 /span 3;
         grid-row: 3 /span 1;
     }
-    .section-4{
+    .section-4 {
         grid-column: 1 /span 2;
         grid-row: 3 /span 1;
     }
-    .section-5{
+    .section-5 {
         grid-column: 1 /span 5;
         grid-row: 4 /span 1;
     }
 }
 @media (min-width: 1350px) { 
-    .main-home{
+    .main-home {
         width: var(--main-width-desktop);
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 15rem);
-        margin: 2rem auto;
+        margin: auto;
+        padding: 2rem 0;
+        gap: 2rem;
     }
-    .main-home__image-section{
+    .main-home__image-section {
         width: 100%;
         grid-column: 1 /span 2;
         grid-row: 1 /span 1;
     }
-    .section-0{
+    .section-0 {
         grid-column: 3 /span 3;
         grid-row: 1 /span 1;
     }
-    .section-1{
+    .section-1 {
         grid-column: 1 /span 3;
         grid-row: 2 /span 1;
     }
-    .section-2{
+    .section-2 {
         height: 100%;
         grid-column: 4 /span 2;
         grid-row: 2 /span 1;
     }
-    .section-3{
+    .section-3 {
         grid-column: 3 /span 3;
         grid-row: 3 /span 1;
     }
-    .section-4{
+    .section-4 {
         grid-column: 1 /span 2;
         grid-row: 3 /span 1;
     }
-    .section-5{
+    .section-5 {
         grid-column: 1 /span 5;
         grid-row: 4 /span 1;
     }
