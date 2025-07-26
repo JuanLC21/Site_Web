@@ -49,7 +49,7 @@ export function Navbar () {
             <ul className={`navbar__content ${state.showNavbar}`}>
                 <li className='navbar__li'></li>
                 <li className='navbar__li'>
-                    <Link to={'/'} className='navbar__link-route'> Inicio</Link>
+                    <Link to={'/'} className='navbar__link-route'>Inicio</Link>
                 </li>
                 <li className='navbar__li'>
                     <Link to={'/products'} className='navbar__link-route'>Productos</Link>
