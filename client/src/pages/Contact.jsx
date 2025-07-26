@@ -1,6 +1,7 @@
 import { Header } from '../layouts/header/Header'
 import { MainContact } from '../layouts/main/MainContact'
 import { Footer } from '../layouts/footer/Footer'
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver.js'
 
 const direction = {
     src: 'fondo_contacto',
@@ -8,11 +9,12 @@ const direction = {
 }
 
 function Contact () {
+    const { isObserved, refElement } = useIntersectionObserver()
     return (
-        <div className="container">
-            <Header parameters={direction}>Contáctanos</Header>          
+        <div className='container'>
+            <Header parameters={direction}>Contáctanos</Header>
             <MainContact/>
-            <Footer/>         
+            <Footer observed={isObserved} reference={refElement}/>
         </div>
     )
 }
