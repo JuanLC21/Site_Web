@@ -2,6 +2,9 @@
     width: var(--main-width);
     height: 14rem;
     margin: auto;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
 }
 /* ////////////////////////////////////// */
 .slider__lightbox {
@@ -27,8 +30,8 @@
     height: 100%;
     position: relative;
     z-index: 0;
-    border-radius: var(--radius);
-    box-shadow: rgba(224, 240, 247, 0.12) 0px 2px 4px 0px, rgba(224, 240, 247, 0.32) 0px 2px 16px 0px;
+    /* border-radius: var(--radius); */
+    /* box-shadow: rgba(224, 240, 247, 0.12) 0px 2px 4px 0px, rgba(224, 240, 247, 0.32) 0px 2px 16px 0px; */
 }
 .slider__slider--lightbox {
     width: 90%;
@@ -55,7 +58,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     position: absolute;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     overflow: hidden;
     background-color: var(--white);
 }

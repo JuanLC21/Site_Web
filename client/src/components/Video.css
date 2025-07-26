@@ -5,13 +5,8 @@
     margin: auto;
     overflow: hidden;
     border-radius: var(--radius);
-    box-shadow: rgba(224, 240, 247, 0.12) 0px 2px 4px 0px, rgba(224, 240, 247, 0.32) 0px 2px 16px 0px;
+    box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
 }
-/* @media (min-width: 550px) and (max-width: 1349px) {
-    .main-home {
-        background-color: aqua;
-    }
-} */
 @media (min-width: 550px) {
     .video{
         width: 100%;

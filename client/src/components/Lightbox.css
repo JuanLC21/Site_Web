@@ -7,6 +7,7 @@
     margin: auto;
     overflow: hidden;
     border-radius: var(--radius);
+    box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
     background-color: var(--white);
 }
 /* ////////////////////////////////////// */

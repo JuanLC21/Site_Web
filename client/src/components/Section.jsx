@@ -7,7 +7,7 @@ export function Section ({ title, styleMod, children, list, textCenter }) {
         <section className={`section ${appearence}`}>
             <h2 className='section__subtitle'>{title}</h2>
             {list || <p className={`section__paragraph ${center}`}>{children}</p>}
-            {list && <ul className='section__list'>{children}</ul>}   
+            {list && <ul className={`section__list ${center}`}>{children}</ul>}
         </section>
     )
 }
