@@ -1,6 +1,7 @@
 import { Header } from '../layouts/header/Header.jsx'
 import { MainHome } from '../layouts/main/MainHome.jsx'
 import { Footer } from '../layouts/footer/Footer.jsx'
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver.js'
 import '../styles/index.css'
 
 const direction = {
@@ -9,11 +10,12 @@ const direction = {
 }
 
 function Home () {
+    const { isObserved, refElement } = useIntersectionObserver()
     return (
         <div className="container">
             <Header parameters={direction}>Desarrollo de ingeniería</Header>
             <MainHome/>
-            <Footer/>
+            <Footer observed={isObserved} reference={refElement}/>
         </div>
     )
 }

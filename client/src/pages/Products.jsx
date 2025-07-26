@@ -1,6 +1,7 @@
 import { Header } from '../layouts/header/Header'
 import { MainProducts } from '../layouts/main/MainProducts'
 import { Footer } from '../layouts/footer/Footer'
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver'
 
 const direction = {
     src: 'fondo_producto',
@@ -8,11 +9,12 @@ const direction = {
 }
 
 function Products () {
+    const { isObserved, refElement } = useIntersectionObserver()
     return (
         <section className='container'>
-            <Header parameters={direction}>Productos</Header>           
+            <Header parameters={direction}>Productos</Header>
             <MainProducts/>
-            <Footer/>       
+            <Footer observed={isObserved} reference={refElement}/>
         </section>
     )
 }

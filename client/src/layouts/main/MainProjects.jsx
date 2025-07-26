@@ -8,7 +8,7 @@ import video02 from '../../assets/videos/Process.mp4'
 import './MainProjects.css'
 
 const projects = Object.values(images)
-const imgCalifornia = {img0: images.image05, img1: images.image06, img2: images.image07, img3: images.image08, img4: images.image09}
+const imgCalifornia = { img0: images.image05, img1: images.image06, img2: images.image07, img3: images.image08, img4: images.image09 }
 export function MainProjects () {
     // const imgChina = {img00: images.image00, img01: images.image01}
     return (
@@ -17,7 +17,7 @@ export function MainProjects () {
                 Sistema de control para Ecogreen de planta recicladora de llantas en china.
             </Section>
             <Video url={video01} control={true} styleMod={'section-projects-1'}/>
-            <Slider images={{img00: images.image00, img01: images.image01}} styleMod={'section-projects-2'}/>
+            <Slider images={{ img00: images.image00, img01: images.image01 }} styleMod={'section-projects-2'}/>
             {/* <Lightbox urlImage={projects[0]} altImage={'Pantalla'} styleMod={'section-projects-2'}/> */}
             {/* <Lightbox urlImage={projects[1]} altImage={'Tableros de control'} styleMod={'section-projects-3'}/> */}
 
@@ -25,7 +25,7 @@ export function MainProjects () {
                 Automatización de sistema de control para la planta PQP Bogotá.
             </Section>
             <Video url={video02} control={true} styleMod={'section-projects-4'}/>
-            <Slider images={{img00: images.image02, img01: images.image03}} styleMod={'section-projects-5'}/>
+            <Slider images={{ img00: images.image02, img01: images.image03 }} styleMod={'section-projects-5'}/>
             {/* <Lightbox urlImage={projects[2]} altImage={'Monitores planta de sulfunación'} styleMod={'section-projects-6'}/>
             <Lightbox urlImage={projects[3]} altImage={'Planta de sulfunación'} styleMod={'section-projects-7'}/> */}
 

@@ -1,6 +1,7 @@
 import { Header } from '../layouts/header/Header'
 import { MainProjects } from '../layouts/main/MainProjects'
 import { Footer } from '../layouts/footer/Footer'
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver'
 
 const direction = {
     src: 'fondo_proyecto',
@@ -8,11 +9,12 @@ const direction = {
 }
 
 function Projects () {
+    const { isObserved, refElement } = useIntersectionObserver()
     return (
         <div className="container">
             <Header parameters={direction}>Proyectos</Header>
             <MainProjects/>
-            <Footer/>          
+            <Footer observed={isObserved} reference={refElement}/>
         </div>
 
     )
