@@ -10,7 +10,7 @@
     font-weight: 600;
     text-transform: uppercase;
     margin: 1rem 0 0.5rem 0.25rem;
-    color: var(--cian);
+    color: var(--sky);
 }
 .form > input, .form > button {
     width: var(--main-width);
@@ -20,11 +20,12 @@
 }
 .form__input {
     padding-left: 0.5rem;
+    box-shadow: 4px 4px 11px -3px rgba(33,26,26,0.75) inset;
 }
 .form__button {
     font-weight: 600;
-    margin: 1rem 0;
-    background-color: var(--cian);
+    margin-top: 1rem;
+    background-color: var(--sky);
 }
 .form > textarea {
     width: var(--main-width);
@@ -32,10 +33,47 @@
     padding: 0.5rem;
     border: none;
     border-radius: var(--radius);
+    box-shadow: 4px 4px 11px -3px rgba(33,26,26,0.75) inset;
 }
 .form__error-message {
     width: 80%;
     font-size: 0.75rem;
     margin-top: 0.25rem;
     color: crimson;
+}
+@media (min-width: 550px) and (max-width: 1349px) {
+    .form {
+        width: 45%;
+        margin: auto;
+    }
+    .form__button {
+        cursor: pointer;
+    }
+    .form > label {
+        width: 100%;
+    }
+    .form > input, .form > button {
+        width: 100%;
+    }
+    .form > textarea {
+        width: 100%;
+    }
+}
+@media (min-width: 1350px) {
+    .form {
+        width: 35%;
+        margin: auto;
+    }
+    .form__button {
+        cursor: pointer;
+    }
+    .form > label {
+        width: 100%;
+    }
+    .form > input, .form > button {
+        width: 100%;
+    }
+    .form > textarea {
+        width: 100%;
+    }
 }

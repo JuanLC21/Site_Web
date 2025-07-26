@@ -2,4 +2,18 @@
     width: 80%;
     height: 15rem; 
     margin: auto;
+    margin-top: 2rem;
+    border: 3px solid var(--sky);
+}
+@media (min-width: 550px) and (max-width: 1349px) {
+    .map {
+        width: 45%;
+        height: 29rem;
+    }
+}
+@media (min-width: 1350px) {
+    .map {
+        width: 35%;
+        height: 29rem;
+    }
 }
