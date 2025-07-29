@@ -1,24 +1,25 @@
 .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: var(--main-width);
     margin: auto;
     padding: 1.5rem;
     border-radius: var(--radius);
     background-color: rgba(231, 231, 238, 0.3);
-    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -5px 0px inset; */
     box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
 }
 .section__subtitle {
+    /* margin: auto; */
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.25rem;
-    /* color: var(--white); */
     color: var(--sky);    
     text-transform: uppercase;
-    /* text-shadow: 0 0 3px var(--white) , 0 0 7px var(--white); */
-    /* text-shadow: 0 0 3px #5322fa , 0 0 7px #5322fa; */
 }
 .section__paragraph {
     color: var(--gray);
+    /* margin: auto; */
 }
 .section__paragraph--mod {
     text-align: center;

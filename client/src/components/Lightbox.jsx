@@ -5,7 +5,7 @@ import './Lightbox.css'
 
 export function Lightbox ({ urlImage, altImage, styleMod }) {
     const [openImg, setOpenImg] = useState('lightbox__box--close')
-const appearance = styleMod || ''
+    const appearance = styleMod || ''
     function handleOpenImg () {
         setOpenImg(openImg === 'lightbox__box--close' ? '' : 'lightbox__box--close')
     }

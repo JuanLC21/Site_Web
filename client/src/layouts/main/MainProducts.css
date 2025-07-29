@@ -9,7 +9,7 @@
         width: 90%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 20rem);
+        grid-template-rows: repeat(4, auto); /* 20rem*/
         margin: auto;
         padding: 2rem 0;
         gap: 2rem;
@@ -53,7 +53,7 @@
         width: var(--main-width-desktop);
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 16rem);
+        grid-template-rows: repeat(4, auto); /* 16rem */
         margin: auto;
         padding: 2rem 0;
         gap: 2rem;

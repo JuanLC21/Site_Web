@@ -1,4 +1,5 @@
 import { Email, Phone, Location, InstagramIcon } from '../../components/Icon'
+import logoHeader from '../../assets/images/logo_header.avif'
 import './Footer.css'
 
 // eslint-disable-next-line react/prop-types
@@ -26,7 +27,7 @@ export function Footer ({ observed, reference }) {
                     </section>
                 </div>
                 <div className='footer__div-2'>
-                    <img src="./logo_header.avif" alt="Logo DDI SAS" />
+                    <img src={logoHeader} alt="Logo DDI SAS" />
                 </div>
                 <section className="footer__section footer__section--modify">
                     <p>DDI S.A.S 2025</p>

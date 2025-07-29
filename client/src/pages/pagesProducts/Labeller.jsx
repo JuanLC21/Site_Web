@@ -1,6 +1,7 @@
 import { Header } from '../../layouts/header/Header'
 import { MainLabeller } from '../../layouts/main/mainProducts/MainLabeller'
 import { Footer } from '../../layouts/footer/Footer'
+import { useIntersectionObserver } from '../../hooks/useIntersectionObserver.js'
 
 const direction = {
     src: '../fondo_producto',
@@ -8,11 +9,12 @@ const direction = {
 }
 
 function Labeller () {
+    const { isObserved, refElement } = useIntersectionObserver()
     return (
         <article className="container">
             <Header parameters={direction}>Máquina etiquetadora</Header>
             <MainLabeller/>
-            <Footer/> 
+            <Footer observed={isObserved} reference={refElement}/>
         </article>
     )
 }
