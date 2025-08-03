@@ -10,7 +10,7 @@
     margin: auto;
     overflow: hidden;
     border-radius: var(--radius);
-    box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
+    box-shadow: 6px 6px 8px #c5c5c5, -6px -6px 8px #eee;
 }
 .main-home__image-section > img {
     width: 100%;
@@ -62,7 +62,7 @@
         width: var(--main-width-desktop);
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(4, 15rem);
+        grid-template-rows: repeat(4, auto);
         margin: auto;
         padding: 2rem 0;
         gap: 2rem;

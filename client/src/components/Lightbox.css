@@ -7,8 +7,8 @@
     margin: auto;
     overflow: hidden;
     border-radius: var(--radius);
-    box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
-    background-color: var(--white);
+    box-shadow: 6px 6px 8px #c5c5c5, -6px -6px 8px #eee;
+    background-color: #e0e0e0;
 }
 /* ////////////////////////////////////// */
 .lightbox__image {
@@ -74,7 +74,7 @@
         width: 100%;
         height: 100%;
         max-width: none;
-        max-height: 17.5rem;
+        max-height: 19rem;
         cursor: pointer;
     }
 }

@@ -6,11 +6,9 @@
     margin: auto;
     padding: 1.5rem;
     border-radius: var(--radius);
-    background-color: rgba(231, 231, 238, 0.3);
-    box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
+    box-shadow: 6px 6px 8px #c5c5c5, -6px -6px 8px #eee;
 }
 .section__subtitle {
-    /* margin: auto; */
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.25rem;
@@ -19,7 +17,7 @@
 }
 .section__paragraph {
     color: var(--gray);
-    /* margin: auto; */
+    line-height: 1.5;
 }
 .section__paragraph--mod {
     text-align: center;
@@ -30,6 +28,7 @@
 }
 .section__list > li {
     margin-bottom: 1rem;
+    line-height: 1.5;
 }
 .section__list > li:last-child {
     margin-bottom: 0;

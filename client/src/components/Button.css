@@ -9,7 +9,6 @@
     border: 2px solid var(--white);
     border-radius: var(--radius);
     background-color: #3836CF;
-    /* background: linear-gradient(90deg, #3836CF, #6A36CF); */
 }
 .button__link {
     text-decoration: none;

@@ -2,7 +2,7 @@
     width: 100%;
     margin-bottom: 1rem;
     padding: 2rem 0 1rem 0;
-    box-shadow: 6px 8px 15px -4px rgba(38,27,27,0.74);
+    box-shadow: 6px 8px 15px -4px rgba(46, 45, 45, 0.74);
     background: linear-gradient(135deg, rgba(204, 218, 228, 0.9), rgba(133, 132, 163, 0.3));
 }
 .footer__container {
