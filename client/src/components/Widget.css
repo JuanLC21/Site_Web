@@ -1,0 +1,26 @@
+.widget {
+    width: 6rem;
+    height: 6.2rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.widget__label {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--sky);
+}
+.widget__button {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+}

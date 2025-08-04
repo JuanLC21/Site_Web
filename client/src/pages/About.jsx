@@ -1,5 +1,6 @@
 import { Header } from '../layouts/header/Header'
 import { MainAbout } from '../layouts/main/MainAbout'
+import { Widget } from '../components/Widget.jsx'
 import { Footer } from '../layouts/footer/Footer'
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver.js'
 
@@ -14,6 +15,7 @@ function About () {
         <section className='container'>
             <Header parameters={direction}>Sobre nosotros</Header>
             <MainAbout/>
+            <Widget/>
             <Footer observed={isObserved} reference={refElement}/>
         </section>
     )

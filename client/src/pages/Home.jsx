@@ -1,5 +1,6 @@
 import { Header } from '../layouts/header/Header.jsx'
 import { MainHome } from '../layouts/main/MainHome.jsx'
+import { Widget } from '../components/Widget.jsx'
 import { Footer } from '../layouts/footer/Footer.jsx'
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver.js'
 import '../styles/index.css'
@@ -15,6 +16,7 @@ function Home () {
         <div className="container">
             <Header parameters={direction}>Desarrollo de ingeniería</Header>
             <MainHome/>
+            <Widget/>
             <Footer observed={isObserved} reference={refElement}/>
         </div>
     )
