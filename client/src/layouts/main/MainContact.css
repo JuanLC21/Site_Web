@@ -1,9 +1,4 @@
 .main-contact {
     width: 100%;
-    padding: 1rem 0;
+    padding: 2rem 0;
 } 
-@media (min-width: 550px) { 
-    .main-contact {
-        padding: 2rem 0;
-    }
-}

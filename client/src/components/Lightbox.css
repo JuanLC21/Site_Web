@@ -1,14 +1,14 @@
 .lightbox {
     width: var(--main-width);
     max-width: var(--main-max-width);
-    max-height: 11rem;
+    height: 11rem;
     display: flex;
     justify-content: center;
     margin: auto;
     overflow: hidden;
     border-radius: var(--radius);
     box-shadow: 6px 6px 8px #c5c5c5, -6px -6px 8px #eee;
-    background-color: #e0e0e0;
+    background-color: #e0e0e0; 
 }
 /* ////////////////////////////////////// */
 .lightbox__image {
@@ -16,7 +16,7 @@
     object-fit: contain;
 }
 .lightbox__image-box {
-    max-height: 20rem;
+    height: 100%;
     min-width: 60%;
     max-width: 90%;
     object-fit: contain;
@@ -64,17 +64,23 @@
 @media (min-width: 550px) and (max-width: 1349px) { 
     .lightbox {
         width: 100%;
-        height: 100%;
+        height: 20rem;
         max-width: none;
-        max-height: 20rem;
+    }
+    .lightbox__container {
+       height: 60%;
     }
 }
 @media (min-width: 1350px) {
     .lightbox {
         width: 100%;
-        height: 100%;
+        height: 21rem;
         max-width: none;
-        max-height: 19rem;
+    }
+    .lightbox__image, .lightbox__close {
         cursor: pointer;
+    }
+    .lightbox__container {
+        height: 70%;
     }
 }

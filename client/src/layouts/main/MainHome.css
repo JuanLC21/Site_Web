@@ -1,8 +1,8 @@
 .main-home {
     display: flex;
     flex-direction: column;
-    margin: 1rem 0;
-    gap: 1rem;
+    margin: 2rem 0;
+    gap: 2rem;
 }
 .main-home__image-section {
     width: 80%;
@@ -24,7 +24,7 @@
         grid-template-rows: repeat(4, auto);
         margin: auto;
         padding: 2rem 0;
-        gap: 2rem;
+        /* gap: 2rem; */
     }
     .main-home__image-section {
         width: 100%;
@@ -65,7 +65,7 @@
         grid-template-rows: repeat(4, auto);
         margin: auto;
         padding: 2rem 0;
-        gap: 2rem;
+        /* gap: 2rem; */
     }
     .main-home__image-section {
         width: 100%;
